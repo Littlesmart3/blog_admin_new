@@ -56,6 +56,6 @@ jobs:
                   ARGS: -rltgoDzvO --delete
                   SOURCE: dist/
                   REMOTE_HOST: ${{ env.SERVER_HOST }}
-                  REMOTE_USER: ${{ env.USER_NAME }}
+                  REMOTE_USER: root
                   TARGET: /www/wwwroot/www.admin.littlesmart3.top/dist/ # 服务器目标路径
 
